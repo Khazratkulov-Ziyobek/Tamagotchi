@@ -8,6 +8,6 @@ If you want to quit game enter 'Q' or 'q'
 
 For feeding enter 'F' or 'f'
 
-For playing 'P' or 'p'
+For playing enter 'P' or 'p'
 
-For giving toys 'G' or 'g'
+For giving toys enter 'G' or 'g'
