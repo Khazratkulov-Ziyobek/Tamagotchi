@@ -1,7 +1,10 @@
+import globals
+
+
 # Get new toys
 def get_toys():
     print("Yay! Let's get some new toys!")
-    toy_options = pet_toys[pet["type"]]
+    toy_options = globals.pet_toys[globals.pet["type"]]
 
     # specific toy number to select from the list
     toy_num = -1
@@ -14,4 +17,4 @@ def get_toys():
     # get the selected toy option from our list
     chosen_toy = toy_options[toy_num]
     print("Nice! You selected the " + chosen_toy + "!")
-    pet["toys"].append(chosen_toy)
+    globals.pet["toys"].append(chosen_toy)
