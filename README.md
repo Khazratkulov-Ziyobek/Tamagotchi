@@ -1,6 +1,6 @@
 Tamagotchi game
 
-To run code you must prescribe python3 main.py
+To run code you must prescribe python3 tamagotchi.py
 
 First of all, you must choose on of the type of pet and then you must give name to your pet
 
