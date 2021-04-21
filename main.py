@@ -11,7 +11,7 @@ import print_stats
 # Main game loop
 def main():
     # initialize our pet
-    init_pet()
+    init_pet.init_pet()
 
     # menu options for printing and access
     quit_dict = {"function": quit.quit_simulator, "text": "Quit the game"}
@@ -25,7 +25,7 @@ def main():
         menu_selection = ""
         # validate the input
         while menu_selection not in menu_options.keys():
-            print_menu(menu_options)
+            print_menu.print_menu(menu_options)
             menu_selection = input("Which of these new options would you like to use? ").upper()
 
         if menu_selection == "Q":
@@ -37,10 +37,9 @@ def main():
         # increase pet's hunger
         globals.pet["hunger"] += 10
         globals.pet["age"] += 1
-        print_stats()
+        print_stats.print_stats()
         # print out at extra line between options
         print()
 
 
 main()
-
