@@ -15,3 +15,4 @@ def init_pet():
     pet["type"] = pet_type
     # name our pet
     pet["name"] = input("What would you like to name your " + pet["type"] + "? ")
+
