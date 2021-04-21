@@ -40,6 +40,3 @@ def main():
         print_stats.print_stats()
         # print out at extra line between options
         print()
-
-
-main()
