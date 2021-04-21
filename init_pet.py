@@ -1,3 +1,6 @@
+import globals
+
+
 # Prompt for different options of pet type
 def init_pet():
     # get the input of what type pet this is
@@ -12,7 +15,7 @@ def init_pet():
             print(option)
         pet_type = input("Please input one of the pets: ")
     # write in the pet type into the database
-    pet["type"] = pet_type
+    globals.pet["type"] = pet_type
     # name our pet
-    pet["name"] = input("What would you like to name your " + pet["type"] + "? ")
+    globals.pet["name"] = input("What would you like to name your " + pet["type"] + "? ")
 
