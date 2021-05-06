@@ -1,7 +1,7 @@
-Tamagotchi game
+# Tamagotchi game
 
 
-USAGE:
+### USAGE:
 
 1. git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
 2. cd Review1
@@ -11,7 +11,7 @@ USAGE:
 
 First of all, you must choose on of the type of pet and then you must give name to your pet
 
-COMMANDS:
+### COMMANDS:
 
 If you want to quit game enter 'Q' or 'q'
 
