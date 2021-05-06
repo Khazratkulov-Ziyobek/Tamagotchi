@@ -28,3 +28,4 @@ class Globals:
         "fish" : fish_toys
     }
     HUNGER_DECREASE = 10
+    AGE_DECREASE = 1
