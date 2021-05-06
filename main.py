@@ -1,4 +1,4 @@
-import globals
+from globals import Globals
 import init_pet
 import quit
 import feed_pet
@@ -15,9 +15,9 @@ def main():
 
     # menu options for printing and access
     quit_dict = {"function": quit.quit_simulator, "text": "Quit the game"}
-    feed_dict = {"function": feed_pet.feed_pet, "text": "Feed " + globals.pet["name"]}
-    play_dict = {"function": play_toys.play_toys, "text": "Play with " + globals.pet["name"]}
-    game_dict = {"function": get_toys.get_toys, "text": "Get new toys for " + globals.pet["name"] + "!"}
+    feed_dict = {"function": feed_pet.feed_pet, "text": "Feed " + pet["name"]}
+    play_dict = {"function": play_toys.play_toys, "text": "Play with " + pet["name"]}
+    game_dict = {"function": get_toys.get_toys, "text": "Get new toys for " + pet["name"] + "!"}
     menu_options = {"Q": quit_dict, "F": feed_dict, "P": play_dict, "G": game_dict}
     keep_playing = True
     while keep_playing:
@@ -35,8 +35,8 @@ def main():
         menu_options[menu_selection]["function"]()
 
         # increase pet's hunger
-        globals.pet["hunger"] += 10
-        globals.pet["age"] += 1
+        pet["hunger"] += HUNGER_DECREASE
+        pet["age"] += AGE_DECREASE
         print_stats.print_stats()
         # print out at extra line between options
         print()
