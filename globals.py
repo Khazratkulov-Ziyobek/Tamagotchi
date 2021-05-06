@@ -1,11 +1,10 @@
-
 class Globals:
     pet = {
-        "name" : "",
-        "type" : "", 
-        "age" : 0,
-        "hunger" : 0,
-        "toys" : []
+        "name": "",
+        "type": "",
+        "age": 0,
+        "hunger": 0,
+        "toys": []
     }
     cat_toys = [
         "scratching post",
@@ -23,9 +22,9 @@ class Globals:
         "buried treasure"
     ]
     pet_toys = {
-        "cat" : cat_toys,
-        "dog" : dog_toys,
-        "fish" : fish_toys
+        "cat": cat_toys,
+        "dog": dog_toys,
+        "fish": fish_toys
     }
     HUNGER_DECREASE = 10
     AGE_DECREASE = 1
