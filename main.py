@@ -1,14 +1,14 @@
 from globals import Globals
-from init_pet import init_pet()
-from feed_pet import feed_pet()
-from get_toys import get_toys()
-from print_stats import print_stats()
-
+import init_pet
+import feed_pet
+import get_toys
+import print_stats
 
 
 # Play with our toys
 def play_toys():
-    print(pet["name"] + " had a wonderful time playing with the toys!")
+    # print(pet["name"] + " had a wonderful time playing with the toys!")
+    print(f"{Globals.pet['name']} had a wonderful time playing with the toys!")
 
 
 # Quit the game
@@ -29,13 +29,16 @@ def print_menu(menu_options):
 # Main game loop
 def main():
     # initialize our pet
-    init_pet()
+    init_pet.init_pet()
 
     # menu options for printing and access
     quit_dict = {"function": quit_simulator, "text": "Quit the game"}
-    feed_dict = {"function": feed_pet, "text": "Feed " + pet["name"]}
-    play_dict = {"function": play_toys, "text": "Play with " + pet["name"]}
-    game_dict = {"function": get_toys, "text": "Get new toys for " + pet["name"] + "!"}
+    # feed_dict = {"function": feed_pet, "text": "Feed " + pet["name"]}
+    feed_dict = {"function": feed_pet.feed_pet, "text": f"Feed {Globals.pet['name']}"}
+    # play_dict = {"function": play_toys, "text": "Play with " + pet["name"]}
+    play_dict = {"function": play_toys, "text": f"Play with {Globals.pet['name']}"}
+    # game_dict = {"function": get_toys, "text": "Get new toys for " + pet["name"] + "!"}
+    game_dict = {"function": get_toys.get_toys, "text": f"Get new toys for {Globals.pet['name']} !"}
     menu_options = {"Q": quit_dict, "F": feed_dict, "P": play_dict, "G": game_dict}
     keep_playing = True
     while keep_playing:
@@ -53,8 +56,8 @@ def main():
         menu_options[menu_selection]["function"]()
 
         # increase pet's hunger
-        pet["hunger"] += HUNGER_DECREASE
-        pet["age"] += AGE_DECREASE
-        print_stats()
+        Globals.pet['hunger'] += Globals.HUNGER_DECREASE
+        Globals.pet['age'] += Globals.AGE_DECREASE
+        print_stats.print_stats()
         # print out at extra line between options
         print()
