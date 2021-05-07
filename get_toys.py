@@ -11,7 +11,6 @@ def get_toys():
     # get a valid toy to input
     while toy_num < 0 or toy_num > len(toy_options) - 1:
         for i in range(len(toy_options)):
-            # print(str(i) + ": " + toy_options[i])
             print(f"{str(i)}: {toy_options[i]}")
         toy_num = int(input("Input the number of the toy you would like: "))
 
