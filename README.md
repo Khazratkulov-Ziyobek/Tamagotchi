@@ -16,7 +16,7 @@
 ---------------------------------------
  In the Tamagotchi game, you can name, feed, and play with your own virtual pet.\
  First of all, you can choose one of the types of pet and then you can give name to your pet.\
- Finally, you can choose commands below. Enjoy with playying :)
+ Finally, you can choose commands below. Enjoy with playying :)\
  Here some examples:
 ![picture](images/Screenshot_1.png)
 ![picture](images/Screenshot_2.png)
@@ -29,7 +29,7 @@
 
 <a name="usage"><h3>Usage</h3></a>
 ---------------------------------------
-To run code follow instructions below:\
+To run code follow instructions below:
 - git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
 - cd Review1
 - python3 tamagotchi.py
