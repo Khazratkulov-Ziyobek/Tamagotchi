@@ -18,6 +18,7 @@
  First of all, you can choose one of the types of pet and then you can give name to your pet.\
  Finally, you can choose commands below. Enjoy with playying :)\
  Here some examples:
+ 
 ![picture](images/Screenshot_1.png)
 ![picture](images/Screenshot_2.png)
 ![picture](images/Screenshot_3.png)
