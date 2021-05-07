@@ -33,11 +33,8 @@ def main():
 
     # menu options for printing and access
     quit_dict = {"function": quit_simulator, "text": "Quit the game"}
-    # feed_dict = {"function": feed_pet, "text": "Feed " + pet["name"]}
     feed_dict = {"function": feed_pet.feed_pet, "text": f"Feed {Globals.pet['name']}"}
-    # play_dict = {"function": play_toys, "text": "Play with " + pet["name"]}
     play_dict = {"function": play_toys, "text": f"Play with {Globals.pet['name']}"}
-    # game_dict = {"function": get_toys, "text": "Get new toys for " + pet["name"] + "!"}
     game_dict = {"function": get_toys.get_toys, "text": f"Get new toys for {Globals.pet['name']} !"}
     menu_options = {"Q": quit_dict, "F": feed_dict, "P": play_dict, "G": game_dict}
     keep_playing = True
