@@ -36,7 +36,7 @@
 
 To run code follow instructions below:
 ```sh
-1. git clone [https://github.com/Khazratkulov-Ziyobek/Review1.git](https://github.com/Khazratkulov-Ziyobek/Review1)
+1. git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
 2. cd Review1
 3. python3 tamagotchi.py
 ```
