@@ -1,18 +1,22 @@
-# Tamagotchi game
+<h3 align="center">Tamagotchi Game</h3>
+
+<p align="center">
+    by Khazratkulov Ziyobek
+    <br />
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+<ol>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#command">Commands</a></li>
+</ol>
+</details>
 
 
-
-### By Khazratkulov Ziyobek
-
-
-#### Table of contents
-[Describtion](#describtion)\
-[Usage](#usage)\
-[Commands](#command)
-
-
-
-<a name="describtion"><h3>Describtion</h3></a>
+## Description
 ---------------------------------------
  In the Tamagotchi game, you can name, feed, and play with your own virtual pet.\
  First of all, you can choose one of the types of pet and then you can give name to your pet.\
@@ -28,17 +32,20 @@
 
 
 
-<a name="usage"><h3>Usage</h3></a>
+## Usage
 ---------------------------------------
 To run code follow instructions below:
-- git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
-- cd Review1
-- python3 tamagotchi.py
+```sh
+1. git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
+2. cd Review1
+3. python3 tamagotchi.py
+```
 
-
-<a name="command"><h3>Commands</h3></a>
+## Commands
 --------------------------------------
-- To quit game enter 'Q' or 'q'
-- For feeding enter 'F' or 'f'
-- For playing enter 'P' or 'p'
-- For giving toys enter 'G' or 'g'
+```sh
+1. To quit game enter 'Q' or 'q'
+2. For feeding enter 'F' or 'f'
+3. For playing enter 'P' or 'p'
+4. For giving toys enter 'G' or 'g'
+```
