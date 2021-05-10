@@ -17,7 +17,7 @@
 
 
 ## Description
----------------------------------------
+
  In the Tamagotchi game, you can name, feed, and play with your own virtual pet.\
  First of all, you can choose one of the types of pet and then you can give name to your pet.\
  Finally, you can choose commands below. Enjoy with playying :)\
@@ -33,7 +33,7 @@
 
 
 ## Usage
----------------------------------------
+
 To run code follow instructions below:
 ```sh
 1. git clone https://github.com/Khazratkulov-Ziyobek/Review1.git
@@ -42,7 +42,7 @@ To run code follow instructions below:
 ```
 
 ## Commands
---------------------------------------
+
 ```sh
 1. To quit game enter 'Q' or 'q'
 2. For feeding enter 'F' or 'f'
