@@ -3,7 +3,7 @@ from globals import Globals
 
 # print out stats about the current status of the pet
 def print_stats():
-    print(f"Your {Globals.pet["type"]} {Globals.pet["name"]} is doing great!")
+    print(f"Your {Globals.pet['type']} {Globals.pet["name"]} is doing great!")
     if len(Globals.pet["toys"]) == 0:
         print("Your pet currently has not toys")
     else:
