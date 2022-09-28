@@ -7,7 +7,6 @@ import print_stats
 
 # Play with our toys
 def play_toys():
-    # print(pet["name"] + " had a wonderful time playing with the toys!")
     print(f"{Globals.pet['name']} had a wonderful time playing with the toys!")
 
 
@@ -33,9 +32,9 @@ def main():
 
     # menu options for printing and access
     quit_dict = {"function": quit_simulator, "text": "Quit the game"}
-    feed_dict = {"function": feed_pet.feed_pet, "text": f"Feed {Globals.pet["name"]}"}
-    play_dict = {"function": play_toys, "text": f"Play with {Globals.pet["name"]}"}
-    game_dict = {"function": get_toys.get_toys, "text": f"Get new toys for {Globals.pet["name"]} !"}
+    feed_dict = {"function": feed_pet.feed_pet, "text": f"Feed {Globals.pet['name']}"}
+    play_dict = {"function": play_toys, "text": f"Play with {Globals.pet['name']}"}
+    game_dict = {"function": get_toys.get_toys, "text": f"Get new toys for {Globals.pet['name']} !"}
     menu_options = {"Q": quit_dict, "F": feed_dict, "P": play_dict, "G": game_dict}
     keep_playing = True
     while keep_playing:
